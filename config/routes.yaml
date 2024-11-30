@@ -7,6 +7,10 @@
 setupcheck:
     path: /api/setup-check
     controller: App\Controller\DefaultController::setupCheck
+    
+exchange-rates:
+    path: /api/exchange-rates
+    controller: App\Controller\ExchangeRatesController::index
 
 index:
     path: /{wildcard}
